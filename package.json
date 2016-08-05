@@ -1,0 +1,39 @@
+{
+  "name": "gulp-jsdoc-generator",
+  "version": "0.1.0",
+  "description": "A gulp plugin to generate jsdoc",
+  "main": "lib",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "author": "zoei",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "debug": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "jsdoc": "^3.4.0",
+    "map-stream": "0.0.6",
+    "tmp": "0.0.28"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.15",
+    "babel-preset-es2015": "^6.3.13",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoei/gulp-jsdoc-generator.git"
+  },
+  "keywords": [
+    "gulp",
+    "jsdoc",
+    "generator",
+    "template"
+  ],
+  "bugs": {
+    "url": "https://github.com/zoei/gulp-jsdoc-generator/issues"
+  },
+  "homepage": "https://github.com/zoei/gulp-jsdoc-generator#readme"
+}
